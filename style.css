@@ -1,0 +1,95 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+.first-card {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.card-banner {
+    width: 320px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 12px 13px;
+
+
+
+}
+
+.card-banner img {
+    width: 100%;
+}
+
+.card-banner h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    margin: 20px 0;
+    color:red;
+}
+
+.card-banner span {
+    color: goldenrod;
+    font-family: cursive;
+}
+
+.card-banner p {
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400px;
+    color: black;
+}
+
+.btn button {
+    padding: 10px 15px;
+    background-color: rgb(212, 51, 158);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 3s all ease;
+    margin-top: 8px;
+
+
+}
+
+.btn button:hover {
+    background-color: rgba(137, 55, 218, 0.861);
+    color: black;
+    transition: .3s all ease;
+}
+
+@media only screen and (max-width: 600px) and (min-width:300px) {
+    
+    /* card sector */
+    .container {
+        width: 100%;
+    }
+
+    .first-card {
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(45, 45, 173, 0.696);
+
+
+    }
+
+    .card-banner {
+        width: 280px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .card-banner img {
+        width: 100%;
+    }
+}
